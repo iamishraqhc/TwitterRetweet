@@ -16,6 +16,7 @@ Instructions
 3. Once accepted, go to the [Twitter’s developer platform](https://developer.twitter.com/en) and login with the account you want to use for the bot purpose. Its best to create a profile for this purpose.
 4. Once you log in to the developer portal, create a new project and generate the key, secret, access_token and access_token_secrets. Also change the app permission from read only to read + write. Its best that after changing the app permissions, regenerate the keys and tokens.
 5. Start virtualenv and run the command "pip install -r requirements.txt".
-6. Now create a file called .env and include it in .gitignore (if not included). 7. I have created a .envdemo file. Edit your .env file according to this .envdemo file. While editing, use your keys and tokens in the variables.
+6. Now create a file called .env and include it in .gitignore (if not included)
+7. I have created a .envdemo file. Edit your .env file according to this .envdemo file. While editing, use your keys and tokens in the variables.
 8. Then code your bot and test.
 9. Run your script with the command "python retweet.py".
